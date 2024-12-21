@@ -20,11 +20,11 @@ const Timer: React.FC = () => {
 
     useEffect(() => {
 
-        tickSound.current = new Audio('/tick.mp3');
+        tickSound.current = new Audio('https://drive.google.com/uc?export=download&id=1rVzX3yMBcirZzmIbv2QzY9zZmbB0fQxD');
 
         tickSound.current.volume = 0.5;
 
-        buzzerSound.current = new Audio('/buzzer.mp3');
+        buzzerSound.current = new Audio('https://drive.google.com/uc?export=download&id=1D4jY5x1UxAfx6ynYn3xggNYp9cORSl7_');
 
         buzzerSound.current.volume = 1;
     }, []);
